@@ -4,7 +4,8 @@
   "description": "Curso de NodeJS, Typescript, TDD, Clean Arch e SOLID da Udemy.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "repository": {
     "type": "git",
