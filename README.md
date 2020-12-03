@@ -25,3 +25,10 @@ c = !git add --all && git commit -m
 
 l = !git log --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 ```
+
+## Dicas da aula de Configurando as Depedências
+
+> https://www.conventionalcommits.org/en/v1.0.0/
+
+> https://www.npmjs.com/package/git-commit-msg-linter
+Vai ajudar a respeitar as regras do Conventional Commits
