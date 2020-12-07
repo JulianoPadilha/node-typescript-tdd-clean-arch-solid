@@ -33,6 +33,6 @@ l = !git log --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, 
 > https://www.npmjs.com/package/git-commit-msg-linter
 Vai ajudar a respeitar as regras do Conventional Commits
 
-## Clen Arch Node API
+## Clean Arch Node API
 
 > https://app.diagrams.net/#G1Rb52QH3cfyOuyZHda8kWeqwe5uCxgve4
