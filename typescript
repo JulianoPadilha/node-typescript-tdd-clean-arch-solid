@@ -1,285 +1,0 @@
-Script started on Sat Jan  2 14:13:16 2021
-]7;file://BR0FVFYN2SXHV2H/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://BR0FVFYN2SXHV2H/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid]2;jpadilha@BR0FVFYN2SXHV2H]1;..an-arch-solid]7;file://BR0FVFYN2SXHV2H/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid[0m[27m[24m[J[01;32m➜  [36mnode-typescript-tdd-clean-arch-solid[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnnpm script[?1l>[?2004l
-]2;npm script]1;npm
-Usage: npm <command>
-
-where <command> is one of:
-    access, adduser, audit, bin, bugs, c, cache, ci, cit,
-    clean-install, clean-install-test, completion, config,
-    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
-    edit, explore, fund, get, help, help-search, hook, i, init,
-    install, install-ci-test, install-test, it, link, list, ln,
-    login, logout, ls, org, outdated, owner, pack, ping, prefix,
-    profile, prune, publish, rb, rebuild, repo, restart, root,
-    run, run-script, s, se, search, set, shrinkwrap, star,
-    stars, start, stop, t, team, test, token, tst, un,
-    uninstall, unpublish, unstar, up, update, v, version, view,
-    whoami
-
-npm <command> -h  quick help on <command>
-npm -l            display full usage info
-npm help <term>   search for help on <term>
-npm help npm      involved overview
-
-Specify configs in the ini-formatted file:
-    /Users/jpadilha/.npmrc
-or on the command line via: npm <command> --key value
-Config info can be viewed via: npm help config
-
-npm@6.14.8 /Users/jpadilha/.nvm/versions/node/v10.16.0/lib/node_modules/npm
-
-Did you mean this?
-    cit
-[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://BR0FVFYN2SXHV2H/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid]2;jpadilha@BR0FVFYN2SXHV2H]1;..an-arch-solid]7;file://BR0FVFYN2SXHV2H/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid[0m[27m[24m[J[01;31m➜  [36mnode-typescript-tdd-clean-arch-solid[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcclear[?1l>[?2004l
-]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://BR0FVFYN2SXHV2H/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid]2;jpadilha@BR0FVFYN2SXHV2H]1;..an-arch-solid]7;file://BR0FVFYN2SXHV2H/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid[0m[27m[24m[J[01;32m➜  [36mnode-typescript-tdd-clean-arch-solid[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnnvm use c [?1l>[?2004l
-]2;nvm use]1;nvmFound '/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid/.nvmrc' with version <v14>
-Now using node v14.3.0 (npm v6.14.5)
-[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://BR0FVFYN2SXHV2H/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid]2;jpadilha@BR0FVFYN2SXHV2H]1;..an-arch-solid]7;file://BR0FVFYN2SXHV2H/Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid[0m[27m[24m[J[01;32m➜  [36mnode-typescript-tdd-clean-arch-solid[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnnpm u run test[?1l>[?2004l
-]2;npm run test]1;npm
-> node-typescript-tdd-clean-arch-solid@1.0.0 test /Users/jpadilha/Documents/github/node-typescript-tdd-clean-arch-solid
-> jest --passWithNoTests --watch
-
-[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K[1mNo tests found related to files changed since last commit.[22m[2m[22m
-[2mPress `a` to run all tests, or run Jest with `--watchAll`.[22m
-[999D[K
-[K[1A
-[K[1A[999D[K
-[1mWatch Usage[22m
-[2m › Press [22ma[2m to run all tests.[22m
-[2m › Press [22mf[2m to run only failed tests.[22m
-[2m › Press[22m p [2mto filter by a filename regex pattern.[22m
-[2m › Press[22m t [2mto filter by a test name regex pattern.[22m
-[2m › Press[22m q [2mto quit watch mode.[22m
-[2m › Press [22mEnter[2m to trigger a test run.[22m
-[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
-[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A  SignUp Controller
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no name is provided (3 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no email is provided[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no password is provided[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no password conformation is provided (1 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A    [32m✓[39m [2mShould return 400 if an invalid email is provided (1 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A    [32m✓[39m [2mShould call EmailValidator with correct email (1 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A    [32m✓[39m [2mShould return 500 if EmailValidator throws[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[32m1 passed[39m[22m, 1 total
-[1mTests:       [22m[1m[32m7 passed[39m[22m, 7 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2.45 s
-[2mRan all test suites[22m[2m.[22m
-
-[1mWatch Usage: [22m[2mPress [22mw[2m to show more.[22m[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s, estimated 3 s
-[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s, estimated 3 s
-[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        1 s, estimated 3 s
-[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s, estimated 3 s
-[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  SignUp Controller
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no name is provided (2 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no email is provided[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no password is provided (1 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no password conformation is provided[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 400 if an invalid email is provided (1 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould call EmailValidator with correct email (1 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 500 if EmailValidator throws (1 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[32m1 passed[39m[22m, 1 total
-[1mTests:       [22m[1m[32m7 passed[39m[22m, 7 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3.205 s
-[2mRan all test suites[22m[2m.[22m
-
-[1mWatch Usage: [22m[2mPress [22mw[2m to show more.[22m[2J[3J[H[1m[2mDetermining test suites to run...[22m[22m[999D[K
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s, estimated 3 s
-[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s, estimated 3 s
-[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        1 s, estimated 3 s
-[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s, estimated 3 s
-[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A  SignUp Controller
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no name is provided (2 ms)[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no email is provided[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no password is provided[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A    [32m✓[39m [2mShould return 400 if no password conformation is provided[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/presentation/controllers/[22m[1msignup.spec.ts[22m
-
-[1mTest Suites: [22m0 of 1 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3 s[K[1A[K[1A[K[1A[K[1A[K[
